@@ -1,5 +1,5 @@
 {
-  "name": "consumer",
+  "name": "bulk-pack-consumer",
   "version": "1.0.0",
   "description": "",
   "main": "consumer.js",
