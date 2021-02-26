@@ -26,9 +26,6 @@ jobs:
       - name: npm clean install
         run: npm ci
         working-directory: ${{ env.PROJECT_DIRECTORY }}
-      - name: build project
-        run: npm run build
-        working-directory: ${{ env.PROJECT_DIRECTORY }}
       - name: get-npm-version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
