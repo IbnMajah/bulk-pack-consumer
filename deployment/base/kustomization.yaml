@@ -1,2 +1,6 @@
 resources:
 - treetracker-data-pipeline-deployment.yaml
+- bulk-pack-dev-aws-key-sealed-secret.yaml
+- bulk-pack-dev-aws-keyid-sealed-secret.yaml
+- bulk-pack-dev-db-sealed-secret.yaml
+- bulk-pack-dev-sqs-url-sealed-secret.yaml

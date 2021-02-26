@@ -24,18 +24,21 @@ spec:
               secretKeyRef:
                 name: bulk-pack-database-connection
                 key: db
-          - name: SQS_QUEUE_URL
+          - name: SQS_URL
             valueFrom:
               secretKeyRef:
-                name: bulk-pack-sqs-queue-url
+                name: bulk-pack-sqs-url
+                key: sqsUrl
           - name: AWS_ACCESS_KEY_ID
             valueFrom:
               secretKeyRef:
                 name: aws-access-key-id
+                key: keyId
           - name: AWS_ACCESS_KEY
             valueFrom:
               secretKeyRef:
-                name: aws-access-key
+                name: aws-secret-key
+                key: awsKey
           - name: NODE_LOG_LEVEL
             value: trace
           - name: REMOTE_LOG_URL
