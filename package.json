@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "consumer.js",
+  "private" : true,
   "scripts": {
     "lint": "npm run eslint",
     "lint:fix": "npm run eslint:fix && npm run prettier:fix",
