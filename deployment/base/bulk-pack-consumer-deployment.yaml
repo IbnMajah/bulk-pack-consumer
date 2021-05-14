@@ -33,12 +33,12 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: aws-access-key-id
-                key: keyId
+                key: accessKeyId
           - name: AWS_ACCESS_KEY
             valueFrom:
               secretKeyRef:
-                name: aws-secret-key
-                key: awsKey
+                name: aws-access-key
+                key: secretAccessKey
           - name: NODE_LOG_LEVEL
             value: trace
           - name: REMOTE_LOG_URL

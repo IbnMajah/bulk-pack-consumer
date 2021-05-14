@@ -1,6 +1,6 @@
 resources:
 - bulk-pack-consumer-deployment.yaml
-- bulk-pack-dev-aws-key-sealed-secret.yaml
-- bulk-pack-dev-aws-keyid-sealed-secret.yaml
-- bulk-pack-dev-db-sealed-secret.yaml
-- bulk-pack-dev-sqs-url-sealed-secret.yaml
+- bulk-pack-aws-key-sealed-secret.yaml
+- bulk-pack-aws-keyid-sealed-secret.yaml
+- bulk-pack-db-sealed-secret.yaml
+- bulk-pack-sqs-url-sealed-secret.yaml
