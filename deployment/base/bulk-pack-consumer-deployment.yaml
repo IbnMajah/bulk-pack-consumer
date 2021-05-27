@@ -17,7 +17,6 @@ spec:
       containers:
       - name: bulk-pack-consumer
         image: greenstand/bulk-pack-consumer:latest
-        imagePullPolicy: Always
         env:
           - name: DATABASE_URL
             valueFrom:
