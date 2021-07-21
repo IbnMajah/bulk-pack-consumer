@@ -1,6 +1,6 @@
 {
   "name": "bulk-pack-consumer",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "consumer.js",
   "private": true,
