@@ -1,3 +1,11 @@
+## [1.0.9](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.8...v1.0.9) (2021-07-21)
+
+
+### Bug Fixes
+
+* sqs url secret ([84bb4aa](https://github.com/Greenstand/bulk-pack-consumer/commit/84bb4aa2f776501d9c3ad310840c796beb055ae2))
+* sqs url secret ([e00252c](https://github.com/Greenstand/bulk-pack-consumer/commit/e00252c89ea24f549f82e35925ae65faa86fd6a7))
+
 ## [1.0.8](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.7...v1.0.8) (2021-07-21)
 
 
