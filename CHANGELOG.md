@@ -1,3 +1,11 @@
+## [1.0.15](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.14...v1.0.15) (2021-07-27)
+
+
+### Bug Fixes
+
+* add correct resources for test deployment ([ec38b55](https://github.com/Greenstand/bulk-pack-consumer/commit/ec38b55a7cb80d7dfbaf4871e34fe31e50ba1a76))
+* scale to 2 replicas in test ([878e69d](https://github.com/Greenstand/bulk-pack-consumer/commit/878e69d7a66607cd964a36b86c3a2bdf0030da6b))
+
 ## [1.0.14](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.13...v1.0.14) (2021-07-27)
 
 
