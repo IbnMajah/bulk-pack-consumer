@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.10...v1.0.11) (2021-07-27)
+
+
+### Bug Fixes
+
+* recreate sealed secret ([9740321](https://github.com/Greenstand/bulk-pack-consumer/commit/97403212b951ca80ec7e7f872ae8c60d16ac4acc))
+
 ## [1.0.10](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.9...v1.0.10) (2021-07-27)
 
 
