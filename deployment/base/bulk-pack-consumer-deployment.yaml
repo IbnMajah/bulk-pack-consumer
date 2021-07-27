@@ -26,7 +26,7 @@ spec:
           - name: SQS_URL
             valueFrom:
               secretKeyRef:
-                name: bulk-pack-sqs-url
+                name: sqs-url
                 key: sqsUrl
           - name: AWS_ACCESS_KEY_ID
             valueFrom:
@@ -36,7 +36,7 @@ spec:
           - name: AWS_ACCESS_KEY
             valueFrom:
               secretKeyRef:
-                name: aws-secret-key
+                name: aws-key
                 key: secretAccessKey
           - name: NODE_LOG_LEVEL
             value: trace
