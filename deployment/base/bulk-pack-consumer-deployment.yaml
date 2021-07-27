@@ -31,7 +31,7 @@ spec:
           - name: AWS_ACCESS_KEY_ID
             valueFrom:
               secretKeyRef:
-                name: aws-access-key-id
+                name: aws-key-id
                 key: accessKeyId
           - name: AWS_ACCESS_KEY
             valueFrom:
