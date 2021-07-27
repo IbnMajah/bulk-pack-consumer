@@ -1,7 +1,7 @@
 bases:
   - ../../base
 patchesStrategicMerge:
-  - bulk-pack-aws-key-sealed-secret.yaml
-  - bulk-pack-aws-keyid-sealed-secret.yaml
+  - aws-key-sealed-secret.yaml
+  - aws-key-id-sealed-secret.yaml
   - bulk-pack-database-connection-sealed-secret.yaml
-  - bulk-pack-sqs-url-sealed-secret.yaml
+  - sqs-url-sealed-secret.yaml
