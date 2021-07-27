@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.13...v1.0.14) (2021-07-27)
+
+
+### Bug Fixes
+
+* fix resource names, use defaults ([bf50588](https://github.com/Greenstand/bulk-pack-consumer/commit/bf505882831ea744e545cae15e406cbf51fa34e8))
+
 ## [1.0.13](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.12...v1.0.13) (2021-07-27)
 
 
