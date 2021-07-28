@@ -1,0 +1,8 @@
+bases:
+  - ../../base
+patchesStrategicMerge:
+  - bulk-pack-consumer-deployment.yaml
+  - aws-key-sealed-secret.yaml
+  - aws-key-id-sealed-secret.yaml
+  - bulk-pack-database-connection-sealed-secret.yaml
+  - sqs-url-sealed-secret.yaml
