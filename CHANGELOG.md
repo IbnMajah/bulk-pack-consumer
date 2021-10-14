@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.1...v1.1.2) (2021-10-14)
+
+
+### Bug Fixes
+
+* update production bulk pack database connection ([cc58bf7](https://github.com/Greenstand/bulk-pack-consumer/commit/cc58bf7f26399b504375d8e39f6672efa7358154))
+
 ## [1.1.1](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.0...v1.1.1) (2021-10-14)
 
 
