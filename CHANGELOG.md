@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.0...v1.1.1) (2021-10-14)
+
+
+### Bug Fixes
+
+* revert fix: correct sqs url ([f82f107](https://github.com/Greenstand/bulk-pack-consumer/commit/f82f107af6106fe8906bcd8f09f02970f899df67))
+
 # [1.1.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.16...v1.1.0) (2021-10-14)
 
 
