@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.16...v1.1.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* added deployment details for production ([896eb82](https://github.com/Greenstand/bulk-pack-consumer/commit/896eb8232c86cb92c32caf9ba1462dd12dab0713))
+* correct sqs url ([a6c4adf](https://github.com/Greenstand/bulk-pack-consumer/commit/a6c4adf2cfc8dd6a693d4f9b987887e13a911b44))
+
+
+### Features
+
+* upgrade to node 14 ([313367f](https://github.com/Greenstand/bulk-pack-consumer/commit/313367f34ce505ceb7e7fd28e94c63dfb5e7cafc))
+
 ## [1.0.16](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.0.15...v1.0.16) (2021-07-27)
 
 
