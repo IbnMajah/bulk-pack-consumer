@@ -3,6 +3,10 @@
   "version": "1.0.16",
   "description": "",
   "main": "consumer.js",
+  "engines": {
+    "node": ">=14.0.0 <15",
+    "npm": ">=6.0.0"
+  },
   "private": true,
   "scripts": {
     "lint": "npm run eslint",
