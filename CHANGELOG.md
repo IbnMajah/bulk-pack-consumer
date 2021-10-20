@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.2...v1.2.0) (2021-10-20)
+
+
+### Features
+
+* move deployment to microservices-node-pool ([1972b78](https://github.com/Greenstand/bulk-pack-consumer/commit/1972b7887053df9ff2dd8c8c6773b1d348e5771e))
+
 ## [1.1.2](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.1...v1.1.2) (2021-10-14)
 
 
