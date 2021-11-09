@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.2.0...v1.3.0) (2021-11-09)
+
+
+### Features
+
+* upgrade to node 16 ([94d5167](https://github.com/Greenstand/bulk-pack-consumer/commit/94d516749e6c7d47683d0f110f1e89bab2716696))
+
 # [1.2.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.1.2...v1.2.0) (2021-10-20)
 
 
