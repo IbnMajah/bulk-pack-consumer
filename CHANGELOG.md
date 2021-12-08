@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.3.0...v1.3.1) (2021-12-08)
+
+
+### Bug Fixes
+
+* reseal the database secret with correct ssl settings ([6ff3a97](https://github.com/Greenstand/bulk-pack-consumer/commit/6ff3a977079b32b837f937a7edc80361fab3f270))
+* update bulk pack database connection secret ([36e1401](https://github.com/Greenstand/bulk-pack-consumer/commit/36e1401ea3bcd6d5baeb06ee212a16080ecfed31))
+
 # [1.3.0](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.2.0...v1.3.0) (2021-11-09)
 
 
