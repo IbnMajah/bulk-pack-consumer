@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.3.1...v1.3.2) (2022-01-06)
+
+
+### Bug Fixes
+
+* upgrade pg module ([ca31f10](https://github.com/Greenstand/bulk-pack-consumer/commit/ca31f10556e78a554d0d8d5b768c4e19c05c2242))
+
 ## [1.3.1](https://github.com/Greenstand/bulk-pack-consumer/compare/v1.3.0...v1.3.1) (2021-12-08)
 
 
