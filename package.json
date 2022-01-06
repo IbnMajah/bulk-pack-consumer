@@ -22,7 +22,7 @@
   "dependencies": {
     "aws-sdk": "^2.627.0",
     "dotenv": "^8.2.0",
-    "pg": "^7.18.2",
+    "pg": "^8.7.0",
     "sqs-consumer": "^5.4.0"
   },
   "devDependencies": {
