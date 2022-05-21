@@ -1,5 +1,8 @@
 bases:
   - ../../base
+images:
+  - name: greenstand/bulk-pack-consumer
+    newTag: 1.3.3
 patchesStrategicMerge:
   - bulk-pack-consumer-deployment.yaml
   - aws-key-sealed-secret.yaml
