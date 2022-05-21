@@ -17,8 +17,6 @@ jobs:
       github.repository == "Greenstand/${{ github.event.repository.name }}"
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.inputs.git-tag }}
       - name: Install kustomize
         run: curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
       - name: Run kustomize
