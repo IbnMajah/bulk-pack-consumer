@@ -1,10 +1,12 @@
-bases:
-  - ../../base
 images:
-  - name: greenstand/bulk-pack-consumer
-    newTag: 1.3.3
+- name: greenstand/bulk-pack-consumer
+  newTag: 1.3.3
 patchesStrategicMerge:
-  - aws-key-sealed-secret.yaml
-  - aws-key-id-sealed-secret.yaml
-  - bulk-pack-database-connection-sealed-secret.yaml
-  - sqs-url-sealed-secret.yaml
+- aws-key-sealed-secret.yaml
+- aws-key-id-sealed-secret.yaml
+- bulk-pack-database-connection-sealed-secret.yaml
+- sqs-url-sealed-secret.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- ../../base
