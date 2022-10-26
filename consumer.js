@@ -31,29 +31,34 @@ const app = Consumer.create({
     }
 
     var records = body["Records"];
-    console.log(records);
+    // console.log(records);
 
     for (let record of records) {
       // console.log(record);
       var fullQueueRecord = JSON.stringify(record);
-      console.log("queue record: ", fullQueueRecord);
+      // console.log("queue record: ", fullQueueRecord);
       const eventTime = record["eventTime"];
       const bucketArn = record["s3"]["bucket"]["arn"];
       const bucketName = record["s3"]["bucket"]["name"];
       const key = record["s3"]["object"]["key"];
 
+      // console.log("eventTime: " + eventTime);
+      // console.log("bucketArn: " + bucketArn);
+      // console.log("bucketName: " + bucketName);
+      // console.log("key: " + key);
+
       const bulkData = await fetchS3Data(key, bucketName);
 
       // TODO put this into a table with the above pieces
-
+      // console.log("Bulk data: ", bulkData);
       const insert = {
         text: `INSERT INTO bulk_tree_upload
-          (queue_record, event_time, bucket_arn, key, bulk_data)
+          (queue_record, event_time, bucket_arn, key, bulk_data, processed)
           values
-          ($1, $2, $3, $4, $5)`,
-        values: [fullQueueRecord, eventTime, bucketArn, key, bulkData],
+          ($1, $2, $3, $4, $5, $6)`,
+        values: [fullQueueRecord, eventTime, bucketArn, key, bulkData, false],
       };
-      console.log(insert);
+      // console.log(insert);
       await pool.query(insert);
     }
   },
