@@ -23,7 +23,7 @@ const app = Consumer.create({
   region: Region,
   batchSize: 10,
   handleMessage: async function (message) {
-    console.log(message.Body);
+    // console.log(message.Body);
     var body = JSON.parse(message.Body);
     if (body.Event == "s3:TestEvent") {
       console.log("Test Event");
@@ -87,7 +87,7 @@ async function fetchS3Data(key, bucket) {
 
   const data = await s3GetObjectPromise;
   let objectData = JSON.parse(data.Body.toString("utf-8"));
-  console.log("Buld data: ", objectData);
+  // console.log("Buld data: ", objectData);
   return objectData;
 }
 
